@@ -39,6 +39,6 @@ public class FreeActivity extends AppCompatActivity {
     }
 
     public void tellJoke(View view) {
-        new EndpointsAsyncTask().execute(new Pair<Context, String>(this, "name"));
+        new EndpointsAsyncTask().execute(this);
     }
 }

@@ -271,5 +271,9 @@
     <orderEntry type="module" module-name="javajokeslibrary" />
     <orderEntry type="module" module-name="androidlibrary" />
     <orderEntry type="module" module-name="javajokeslibrary" />
+    <orderEntry type="module" module-name="androidlibrary" />
+    <orderEntry type="module" module-name="javajokeslibrary" />
+    <orderEntry type="module" module-name="androidlibrary" />
+    <orderEntry type="module" module-name="javajokeslibrary" />
   </component>
 </module>

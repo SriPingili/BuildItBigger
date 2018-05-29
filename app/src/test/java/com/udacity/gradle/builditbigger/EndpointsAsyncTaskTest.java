@@ -34,7 +34,7 @@ public class EndpointsAsyncTaskTest {
     public void testOnResponseMethodSuccess() throws Exception {
         String result = null;
 
-        endpointsAsyncTask.execute(new Pair<Context, String>(RuntimeEnvironment.application, "Manfred"));
+        endpointsAsyncTask.execute(RuntimeEnvironment.application);
 
         try {
             result = endpointsAsyncTask.get();
